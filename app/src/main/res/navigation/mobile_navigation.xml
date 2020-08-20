@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_jokes">
+
+    <fragment
+        android:id="@+id/navigation_jokes"
+        android:name="ru.makskol.jokes.ui.jokes.JokesFragment"
+        android:label="@string/jokes_title"
+        tools:layout="@layout/fragment_jokes2" />
+
+    <fragment
+        android:id="@+id/navigation_web_api"
+        android:name="ru.makskol.jokes.ui.webapi.WebApiFragment"
+        android:label="@string/web_api_title"
+        tools:layout="@layout/fragment_web_api" />
+
+</navigation>

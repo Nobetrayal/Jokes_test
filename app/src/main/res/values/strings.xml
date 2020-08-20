@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jokes</string>
+    <string name="jokes_title">Jokes</string>
+    <string name="web_api_title">Web</string>
+    <string name="api_url">http://www.icndb.com/api/</string>
+    <string name="web_api_fragment_title">Api info</string>
+    <string name="jokes_fragment_title">Jokes</string>
+    <string name="reload_text">Reload</string>
+    <string name="count_text">Count</string>
+    <string name="enter_count_hint">Enter count</string>
+</resources>
